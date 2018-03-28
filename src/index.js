@@ -32,7 +32,7 @@ if (!fs.existsSync('data')){
 // Ready message
 client.on('ready', () => {
   console.log('ORRER bot loaded!');
-  client.user.setGame('!orrerhelp');
+  client.user.setActivity('$orrerhelp');
 });
 
 // Commands

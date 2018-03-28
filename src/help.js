@@ -4,9 +4,9 @@ const client = new discord.Client();
 
 module.exports = function(args, message, client, config){
   // Create RichEmbed to display + base properties
-  const embed = new discord.RichEmbed();
-    .setTitle('Tip Bot help');
-    .setColor(0x22bb22); // Green
+  const embed = new discord.RichEmbed()
+        .setTitle('Tip Bot help')
+        .setColor(0x22bb22); // Green
 
   // Test args and modify RichEmbed
   if (args[0] == undefined) {
@@ -39,10 +39,9 @@ module.exports = function(args, message, client, config){
     embed.addField(config.prefix + 'deposit', 'Tip Bot will DM you a Bitcoin Cash address along with instructions on how to deposit to it');
   } else if (args[0] == 'alex') {
     embed.addField(config.prefix + 'deposit', 'Tip Bot will DM you a Bitcoin Cash address along with instructions on how to deposit to it');
-  }
-
+  } else {
     return;
-  }
+	}
 
   // Display RichEmbed
   message.channel.send({embed});
