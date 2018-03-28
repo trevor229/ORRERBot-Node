@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/DJ-TrainR3k/ORRERbot-Node#readme",
   "dependencies": {
-    "discord.js": "^11.2.1",
+    "discord.js": "^11.2.1"
   }
 }
