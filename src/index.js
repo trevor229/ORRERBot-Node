@@ -31,8 +31,8 @@ if (!fs.existsSync('data')){
 
 // Ready message
 client.on('ready', () => {
-  console.log('Tipbot is ready!');
-  client.user.setGame('!tiphelp');
+  console.log('ORRER bot loaded!');
+  client.user.setGame('!orrerhelp');
 });
 
 // Commands
@@ -45,7 +45,7 @@ client.on('message', message => {
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-  if (command == 'help') {
+  if (command == 'orrerhelp') {
     var tip = require('./help.js')(args, message, client, config);
   }
 
@@ -65,4 +65,4 @@ client.on('guildDelete', guild => {
   console.log('Removed from: ${guild.name} (id: ${guild.id})');
 });
 
-client.login(token);
+client.login('Mzk4NjcwMjM0MjkyMDYwMTYw.DTB6KQ.PuqRXnXakBefFamr2cwHldi7-qg');
