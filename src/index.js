@@ -65,4 +65,4 @@ client.on('guildDelete', guild => {
   console.log('Removed from: ${guild.name} (id: ${guild.id})');
 });
 
-client.login('Mzk4NjcwMjM0MjkyMDYwMTYw.DTB6KQ.PuqRXnXakBefFamr2cwHldi7-qg');
+client.login(token);

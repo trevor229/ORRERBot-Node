@@ -1,0 +1,22 @@
+{
+  "name": "Orrer2",
+  "version": "1.0.0",
+  "description": "A Discord bot for doing things.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJ-TrainR3k/ORRERbot-Node.git"
+  },
+  "author": "DJ-TrainR3k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DJ-TrainR3k/ORRERbot-Node/issues"
+  },
+  "homepage": "https://github.com/DJ-TrainR3k/ORRERbot-Node#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+  }
+}
