@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DJ-TrainR3k/ORRERbot-Node.git"
+    "url": "git+https://github.com/trevor229/ORRERBot-Node.git"
   },
-  "author": "DJ-TrainR3k",
+  "author": "Trevor M.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DJ-TrainR3k/ORRERbot-Node/issues"
+    "url": "https://github.com/trevor229/ORRERBot-Node/issues"
   },
-  "homepage": "https://github.com/DJ-TrainR3k/ORRERbot-Node#readme",
+  "homepage": "https://github.com/trevor229/ORRERBot-Node#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
     "request": "^2.88.0"
