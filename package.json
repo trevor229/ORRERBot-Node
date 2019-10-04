@@ -1,10 +1,10 @@
 {
-  "name": "Orrer2",
+  "name": "ORRERBot-Node",
   "version": "1.0.0",
   "description": "A Discord bot for doing things.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DJ-TrainR3k/ORRERbot-Node#readme",
   "dependencies": {
-    "discord.js": "^11.2.1"
+    "discord.js": "^11.5.1",
+    "request": "^2.88.0"
   }
 }
