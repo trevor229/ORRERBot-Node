@@ -10,6 +10,7 @@ A node.js port and improvement of ORRERbot
 * Required npm packages
 	* discord.js
 	* request
+    * nhentai-api-js
 
 ## Startup
 * `cd ORRERBot-Node/` | cd to the directory

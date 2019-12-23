@@ -18,6 +18,7 @@ module.exports = function(args, message, client, config){
       .addField(config.prefix + 'defcon', 'Current DEFCON status')
       .addField(config.prefix + 'alex', 'Alex reaction images')
       .addField(config.prefix + 'trevor', 'Trevor reaction images')
+      .addField(config.prefix + 'nhentai', 'displays the sauce from the secret numbers')
       .addField('Add command to "$orrerhelp" to recieve additional info on that command.', 'EX: $orrerhelp ytho');
   } else if (args[0] == 'hello') {
     embed.addField(config.prefix + 'hello', 'Test command. Output depends on what is being tested.');
@@ -43,6 +44,8 @@ module.exports = function(args, message, client, config){
     embed.addField(config.prefix + 'alex', 'Outputs a random Alex reaction with no arguments. Add a number after for a specific image.');
   } else if (args[0] == 'trevor') {
     embed.addField(config.prefix + 'trevor', 'Outputs a random Trevor reaction with no arguments. Add a number after for a specific image.');
+  } else if (args[0] == 'nhentai') {
+    embed.addField(config.prefix + 'nhentai', 'Looks up the associated doujin with the numbers provided in the first argument. (Ex. ' + config.prefix + 'nhentai 177013)');
   } else {
     embed.addField('What did you say?', 'Sorry, ' + '"' + args[0] + '"' + " isn't a command I know!");
 	}

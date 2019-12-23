@@ -64,6 +64,9 @@ client.on('message', message => {
   if (command == 'aiwhy' || command == 'ytho' || command == 'myeyes' || command == 'reee' || command == 'butytho' || command == 'eyebrows' || command == 'whyyoulikethis' || command == 'noneedtobeupset') {
     var cmd = require('./reactions.js')(command, args, message, client, config);
   }
+
+  if (command == 'nhentai')
+    var cmd = require('./nhentai.js')(args, message, client, config);
 });
 
 client.on('guildMemberAdd', member => {
