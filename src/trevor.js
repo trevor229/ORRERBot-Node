@@ -10,13 +10,13 @@ function getRndInteger(min, max) {
 // Main body
 module.exports = function(args, message, client, config){
     if (args[0] == undefined) {
-      randInt = getRndInteger(1,23)
+      randInt = getRndInteger(1,34)
       const attachment = new discord.Attachment(`./resources/trevor/${randInt}.jpg`);
       message.channel.send(attachment);
-    } else if (args[0] >= 1 && args[0] <= 23){
+    } else if (args[0] >= 1 && args[0] <= 34){
       const attachment = new discord.Attachment(`./resources/trevor/${args[0]}.jpg`);
       message.channel.send(attachment);
     } else {
-      message.channel.send("Invalid Picture Number! Valid Numbers Are 1 through 23")
+      message.channel.send("Invalid Picture Number! Valid Numbers Are 1 through 34")
     }
 }
